@@ -1,0 +1,8 @@
+: Traceback (most recent call last):
+  File "More_Elements.py", line 82, in <module>
+    get_input()
+  File "More_Elements.py", line 75, in get_input
+    print(verb(noun_word))
+  File "More_Elements.py", line 56, in hit
+    return msg
+UnboundLocalError: local variable 'msg' referenced before assignment
