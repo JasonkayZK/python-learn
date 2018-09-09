@@ -1,0 +1,6 @@
+file = open("test.txt", "r")
+file.read()
+print("Re-reading")
+print(file.read())
+print("Finished")
+file.close()
