@@ -6,4 +6,5 @@
 
 - 0_basic
 - 1_tkinter
+- 2_django
 
