@@ -3,4 +3,3 @@
 # Ci
 black
 isort
-pytest
