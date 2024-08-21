@@ -26,6 +26,6 @@ def callback(args):
 
 
 root = tk.Tk()
-tk.Button(root, text='单击', command=Command(callback, "按钮")).pack()
+tk.Button(root, text="单击", command=Command(callback, "按钮")).pack()
 
 root.mainloop()

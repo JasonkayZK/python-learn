@@ -34,11 +34,11 @@ def callback_args(event, a, b):
 
 
 root = tk.Tk()
-l = tk.Label(root, text='单击')
+l = tk.Label(root, text="单击")
 l.bind("<Double-Button-1>", callback)
 l.pack()
 
-frame = tk.Frame(root, bg='khaki', width=100, height=80)
+frame = tk.Frame(root, bg="khaki", width=100, height=80)
 frame.bind("<Button-1>", lambda event: callback_args(event, 1, 2))
 frame.pack()
 

@@ -6,5 +6,5 @@ file.close()
 file = open("test.txt", "r")
 
 for line in file:
-	print(line)
+    print(line)
 file.close()

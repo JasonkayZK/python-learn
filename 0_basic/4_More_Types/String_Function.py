@@ -36,5 +36,3 @@ print("AN ALL CAPS SENTENCE".lower())
 print("spam, eggs, ham".split(","))
 
 # prints "['spam', 'eggs', 'ham']"
-
-

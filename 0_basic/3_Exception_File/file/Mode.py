@@ -7,4 +7,3 @@ open("test.txt")
 
 # binary write mode
 open("test.txt", "wb")
-

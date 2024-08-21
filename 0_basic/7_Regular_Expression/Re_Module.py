@@ -5,8 +5,6 @@ pattern = r"spam"
 print(re.match(pattern, "spam123"))
 
 if re.match(pattern, "spamspamspam"):
-	print("Match")
+    print("Match")
 else:
-	print("No match")
-
-
+    print("No match")

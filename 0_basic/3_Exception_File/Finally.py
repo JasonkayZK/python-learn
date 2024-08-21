@@ -1,15 +1,15 @@
 try:
-	print("Hello")
-	print(1 / 0)
+    print("Hello")
+    print(1 / 0)
 except ZeroDivisionError:
-	print("Divided by zero")
+    print("Divided by zero")
 finally:
-	print("This code will run no matter what")
+    print("This code will run no matter what")
 
 try:
-	print(1)
-	print(1 / 0)
+    print(1)
+    print(1 / 0)
 except ZeroDivisionError:
-	print(unknown_var)
+    print(unknown_var)
 finally:
-	print("This is executed last")
+    print("This is executed last")

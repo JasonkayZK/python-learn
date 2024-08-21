@@ -9,6 +9,5 @@ msg = "Numbers: {0} {1} {2}".format(numstr[0], numstr[1], numstr[2])
 
 print(msg)
 
-a = "{x}, {y}".format(x = 5, y = 12)
+a = "{x}, {y}".format(x=5, y=12)
 print(a)
-

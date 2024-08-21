@@ -1,14 +1,14 @@
 # Open Judge
 try:
-	file = open("test.txt", "r")
-	cont = file.read()
-	print(cont)
+    file = open("test.txt", "r")
+    cont = file.read()
+    print(cont)
 except:
-	print("Fail to open the file")
-	raise
+    print("Fail to open the file")
+    raise
 
 # Close Judge
 try:
-	file.close()
+    file.close()
 except:
-	print("Fail to close the file")
+    print("Fail to close the file")

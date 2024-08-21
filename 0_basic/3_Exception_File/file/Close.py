@@ -1,13 +1,12 @@
 # Open Judge
 try:
-	file = open("test.txt", "w")
-	# do stuff to the file
+    file = open("test.txt", "w")
+    # do stuff to the file
 except:
-	print("Fail to open")
+    print("Fail to open")
 
 # Close Judge
 try:
-	file.close()
+    file.close()
 except:
-	print("Fail to close")
-
+    print("Fail to close")

@@ -1,7 +1,5 @@
 try:
-	f = open("test.txt")
-	print(f.read())
+    f = open("test.txt")
+    print(f.read())
 finally:
-	f.close()
-
-
+    f.close()

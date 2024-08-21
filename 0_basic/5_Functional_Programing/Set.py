@@ -7,5 +7,3 @@ empty_set = set()
 print(num_set)
 print(3 in num_set)
 print("spam" not in word_set)
-
-

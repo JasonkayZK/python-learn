@@ -14,4 +14,3 @@ print("Reading new contents")
 print(file.read())
 print("Finished")
 file.close()
-

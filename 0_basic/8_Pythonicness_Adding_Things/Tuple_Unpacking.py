@@ -7,15 +7,17 @@ print(c)
 # Switch Example
 a = 1
 b = 2
-print("a=",a," b=",b)
+print("a=", a, " b=", b)
 a, b = b, a
-print("a=",a," b=",b)
+print("a=", a, " b=", b)
+
 
 # Solve gcd
 def gcd(x, y):
-	while y:
-		x, y = y, x % y # Equals to y, (x % y)
-	return x
+    while y:
+        x, y = y, x % y  # Equals to y, (x % y)
+    return x
+
 
 print(gcd(256, 72))
 
@@ -25,4 +27,3 @@ print(a)
 print(b)
 print(c)
 print(d)
-

@@ -30,7 +30,7 @@ root = Tk()
 e = StringVar()
 # 使用textvariable属性，绑定字符串型跟踪变量e
 entry = Entry(root, textvariable=e)
-e.set('请输入……')
+e.set("请输入……")
 entry.pack()
 
 passwd = Entry(root, show="*")

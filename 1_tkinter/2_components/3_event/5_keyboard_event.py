@@ -14,10 +14,11 @@ widget 事件源控件
 x、y，x_root、y_root 鼠标事件中鼠标的位置。x_root、·y_root`为绝对坐标，x，y为相对坐标。
 
 """
+
 import tkinter as tk
 
 root = tk.Tk()
-tk.Label(root, text='按键').pack()
+tk.Label(root, text="按键").pack()
 
 
 def callback(event):
@@ -25,7 +26,7 @@ def callback(event):
     print("keysym=", event.keysym)
 
 
-frame = tk.Frame(root, bg='khaki', width=100, height=80)
+frame = tk.Frame(root, bg="khaki", width=100, height=80)
 frame.pack()
 root.bind("<KeyPress-a>", callback)  # a 键
 root.bind("<KeyPress-F1>", callback)  # F1 键

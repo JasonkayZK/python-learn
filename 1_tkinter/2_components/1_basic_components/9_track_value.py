@@ -6,9 +6,9 @@ Tkinter提供了自己的变量类，它们可以用来跟踪这些小控件的�
 
 """
 
-import tkinter as tk
 import threading
 import time
+import tkinter as tk
 
 root = tk.Tk()
 
@@ -24,8 +24,11 @@ volume = tk.DoubleVar()
 
 def print_val():
     while True:
-        print("my_string: {}, ticked_yes: {}, group_choice: {}, volume: {}".
-              format(my_string.get(), ticked_yes.get(), group_choice.get(), volume.get()))
+        print(
+            "my_string: {}, ticked_yes: {}, group_choice: {}, volume: {}".format(
+                my_string.get(), ticked_yes.get(), group_choice.get(), volume.get()
+            )
+        )
         time.sleep(1)
 
 
