@@ -1,1 +1,8 @@
 -e .[all]
+
+django~=5.1
+requests~=2.32.3
+pmw~=2.0.1
+pillow~=10.4.0
+fastapi~=0.115.5
+uvicorn~=0.32.0
