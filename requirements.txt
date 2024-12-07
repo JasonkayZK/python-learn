@@ -6,3 +6,10 @@ pmw~=2.0.1
 pillow~=10.4.0
 fastapi~=0.115.5
 uvicorn~=0.32.0
+
+selenium~=4.27.1
+beautifulsoup4~=4.12.3
+prettytable~=3.12.0
+pymysql~=1.1.1
+docker~=7.1.0
+psutil~=5.9.0
